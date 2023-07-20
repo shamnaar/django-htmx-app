@@ -13,8 +13,11 @@ Docker: Ensure you have Docker installed and running. You can download Docker fr
 
 Follow the steps below to set up and test the containerized application:
 1. Clone the respository:
-```git clone https://github.com/shamnaar/django-htmx-app.git```
-```cd django-htmx-app```
+
+```bash
+git clone https://github.com/shamnaar/django-htmx-app.git
+cd django-htmx-app
+```
 2. Build the docker image
 ```docker build -t my-django-app```
 3. Run the container
@@ -22,8 +25,10 @@ Follow the steps below to set up and test the containerized application:
 4. Access the Application: Open your web browser and navigate to http://localhost:8000. 
 5. Test the application
 6. Stop the Container: Once you've finished testing, you can stop the container using its container ID or name.
-```docker ps```
-```docker stop <container_id_or_name>```
+```bash
+docker ps
+docker stop <container_id_or_name>
+```
 
 # GitHub Actions CI/CD Workflow for deployment on AWS
 
