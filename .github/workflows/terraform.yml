@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       TFaction:
-        description: 'Only "apply" and "plan" is possible, to "destroy" please do manually'
+        description: Choose action to be done
         required: true
         default: 'plan'
         type: choice
